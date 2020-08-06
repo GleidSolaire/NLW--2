@@ -101,7 +101,7 @@ margin-right:  2rem;
     transition: 0.2s;
     margin-top: 3.2rem;
 }
-
+ 
 #give-classes main footer button:hover {
     background:  var(--color-secondary-dark);
 }
