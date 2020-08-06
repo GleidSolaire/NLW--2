@@ -4,7 +4,8 @@
   "description": "Aplicação feita durante a Next Level Week da Rocketseat (JS, HTML, CSS)",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

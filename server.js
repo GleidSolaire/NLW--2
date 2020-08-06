@@ -94,4 +94,7 @@ server.use(express.static("public"))
 .get("/",  pageLading)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
-.listen(5500)
+
+// port heroku
+const PORT= process.env.PORT || 5500
+server.listen(PORT)
